@@ -93,22 +93,22 @@ body {
 
 @-webkit-keyframes play {
 	from { background-position: 0px; }
-	  to { background-position: -512px; }
+	to { background-position: -512px; }
  }
  
  @-moz-keyframes play {
 	from { background-position: 0px; }
-	  to { background-position: -512px; }
+	to { background-position: -512px; }
  }
  
  @-ms-keyframes play {
 	from { background-position: 0px; }
-	  to { background-position: -512px; }
+	to { background-position: -512px; }
  }
  
  @-o-keyframes play {
 	from { background-position:0px; }
-	  to { background-position: -512px; }
+	to { background-position: -512px; }
  }
 
  .anima2 {
@@ -136,20 +136,27 @@ body {
 
 @-webkit-keyframes play2 {
    from { background-position: 0px; }
-     to { background-position: -528px; }
+    to { background-position: -528px; }
 }
 
 @-moz-keyframes play2 {
    from { background-position: 0px; }
-     to { background-position: -528px; }
+    to { background-position: -528px; }
 }
 
 @-ms-keyframes play2 {
    from { background-position: 0px; }
-     to { background-position: -528px; }
+    to { background-position: -528px; }
 }
 
 @-o-keyframes play2 {
    from { background-position: 0px; }
-     to { background-position: -528px; }
+    to { background-position: -528px; }
+}
+
+#disparo {
+	width: 50px;
+	height: 8px;
+	position: absolute;
+	background-image: url(../imgs/disparo.png);
 }
